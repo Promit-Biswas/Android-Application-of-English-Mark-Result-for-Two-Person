@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    <ImageView
+        android:id="@+id/proma"
+        android:layout_width="177dp"
+        android:layout_height="73dp"
+        android:layout_gravity="left"
+        app:srcCompat="@drawable/proma" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/cfcf"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:text="Right" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/red"
+            android:text="Wrong" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:text="Right:   0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:text="Wrong: 0" />
+    <TextView
+        android:id="@+id/total1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:text="Total:   0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_marginTop="15dp"
+        android:layout_width="177dp"
+        android:layout_height="73dp"
+        android:layout_gravity="left"
+        app:srcCompat="@drawable/promit" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/btnright"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/cfcf"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:text="Right" />
+
+
+        <Button
+            android:id="@+id/btnwrong"
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/red"
+            android:text="Wrong" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/right1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:text="Right:   0" />
+
+    <TextView
+        android:id="@+id/wrong1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:text="Wrong: 0" />
+    <TextView
+        android:id="@+id/total2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:text="Total:   0" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:id="@+id/btnshow"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="#FFB300"
+            android:text="Show All" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

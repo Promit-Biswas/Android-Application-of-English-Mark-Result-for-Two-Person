@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="my_button_disabled_state_color">#89C58C</color>
+    <color name="my_button_enabled_state_color">#07FD11</color>
+    <color name="my_button_disabled">#F5ABA6</color>
+    <color name="my_button_enable">#F33022</color>
+</resources>
